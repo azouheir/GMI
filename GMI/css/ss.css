@@ -1,0 +1,21 @@
+
+
+
+.produit{
+border:1px dotted #000099;
+padding:3px;
+height:220px;
+margin:2px;
+float:left;
+width:320px;
+border-radius:5px 5px 5px 5px;
+}
+a{
+text-decoration:none;
+color:#99000;
+}
+a:hover{
+border:1px dotted #000066;
+background:#FFFF99;
+padding;5px;
+}

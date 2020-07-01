@@ -1,0 +1,43 @@
+Trash Document:
+
+                Libellé switch
+
+                <!-- <div class="form-group col-xs-12 <?php /*if($_GET['error']==2){echo "has-error"*/;} ?>">
+                  <label class="col-md-2 control-label"> Libellé SWITCH DU CLUSTER:</label>
+                    <div class =" col-md-4 inputGroupContainer">
+                      <div class ="input-group">
+                      <input name="id-switch-cl" placeholder="EX: clusterX_switch" class="form-control" type="text" required="required">
+                      </div>
+                      <?php  /*if(isset($_GET['error'])){if($_GET['error']==2){ echo"
+                      <div class='form-control-feedback' style='width: 200;position: relative;'>ID SWITCH existe déjà !</div>"*/;}}
+                      ?> 
+                    </div>
+                </div> -->
+                
+                Libellé switch
+
+                <div class="form-group col-xs-12  <?php if($_GET['error']==4){echo "has-error";} ?>">
+              <label class="col-md-2 control-label"> Libellé SWITCH:</label>
+                <div class =" col-md-4 inputGroupContainer">
+                  <div class ="input-group">
+                  <input name="id-switch" placeholder="Ex :RCK_XX_Switch" class="form-control" type="text" required="required">
+                  </div>
+                  <?php  if(isset($_GET['error'])){if($_GET['error']==4){ echo"
+                    <div class='form-control-feedback' style='width: 200;position: relative;'>Libellé SWITCH existe déjà !</div>";}}
+                    ?> 
+                </div>
+            </div>
+
+            	Libellé SSD
+
+            	<div class="form-group col-xs-12 <?php if($_GET['error']==6){echo "has-error";} ?>">
+              <label class="col-md-2 control-label"> Libellé SSD :</label>
+                <div class =" col-md-4 inputGroupContainer">
+                  <div class ="input-group">
+                  <input name="id-ssd" placeholder="Ex: SSD_XX" class="form-control" type="text" required="required">
+                  </div>
+                  <?php  if(isset($_GET['error'])){if($_GET['error']==6){ echo"
+                    <div class='form-control-feedback' style='width: 200;position: relative;'>Libellé SSD existe déjà !</div>";}}
+                    ?> 
+                </div>
+            </div>
